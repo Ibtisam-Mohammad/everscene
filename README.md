@@ -1,4 +1,4 @@
-# Everscene
+# Retkol
 
-The website for Everscene, live wallpapers for Android: home, privacy policy and support.
+The website for Retkol, live wallpapers for Android: home, privacy policy and support.
 Served by GitHub Pages.

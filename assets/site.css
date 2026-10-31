@@ -1,4 +1,4 @@
-/* Everscene: warm near-black ink, paper-white words, one warm light (Ember) for the one thing to do. */
+/* Retkol: warm near-black ink, paper-white words, one warm light (Ember, the logo's orange) for the one thing to do. */
 @font-face { font-family: "Inter"; src: url("fonts/inter.woff2") format("woff2"); font-weight: 100 900; font-display: swap; }
 @font-face { font-family: "Newsreader"; src: url("fonts/newsreader_italic.woff2") format("woff2"); font-style: italic; font-weight: 200 800; font-display: swap; }
 
@@ -10,7 +10,7 @@
   --text: #f6f5f3;
   --text2: #b9b7b4;
   --text3: #8e8c89;
-  --ember: #ff5b2e;
+  --ember: #fd5302;
   --ink: #110f0c;
   --radius: 22px;
   --max: 1120px;
@@ -28,7 +28,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 img { display: block; max-width: 100%; }
-a { color: var(--text); text-decoration-color: rgba(255, 91, 46, 0.6); text-underline-offset: 3px; }
+a { color: var(--text); text-decoration-color: rgba(253, 83, 2, 0.6); text-underline-offset: 3px; }
 a:hover { color: var(--ember); }
 .wrap { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
 .serif { font-family: "Newsreader", Georgia, serif; font-style: italic; font-weight: 400; }
@@ -51,7 +51,7 @@ a:hover { color: var(--ember); }
 .hero { position: relative; overflow: hidden; padding: 88px 0 96px; }
 .hero::before {
   content: ""; position: absolute; inset: -20% -10% auto auto; width: 70vw; height: 70vw; max-width: 900px; max-height: 900px;
-  background: radial-gradient(closest-side, rgba(255, 91, 46, 0.16), rgba(255, 91, 46, 0) 70%);
+  background: radial-gradient(closest-side, rgba(253, 83, 2, 0.16), rgba(253, 83, 2, 0) 70%);
   pointer-events: none;
 }
 .hero .wrap { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 56px; align-items: center; position: relative; }
@@ -75,7 +75,7 @@ h1 .serif { font-weight: 400; letter-spacing: -0.01em; color: var(--text); }
   justify-self: center;
   width: min(330px, 78vw); aspect-ratio: 600 / 1067;
   border-radius: 44px; padding: 10px; background: #1b1a18;
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06), 0 40px 90px rgba(0, 0, 0, 0.6), 0 0 120px rgba(255, 91, 46, 0.12);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06), 0 40px 90px rgba(0, 0, 0, 0.6), 0 0 120px rgba(253, 83, 2, 0.12);
   position: relative;
 }
 .screen { position: relative; width: 100%; height: 100%; border-radius: 35px; overflow: hidden; background: #000; }
@@ -107,7 +107,7 @@ h2 { font-size: clamp(32px, 4vw, 48px); line-height: 1.08; letter-spacing: -0.01
 /* the reacting moments */
 .moments { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .moment { background: var(--surface); border: 1px solid var(--hairline); border-radius: var(--radius); padding: 28px; }
-.moment .icon { width: 44px; height: 44px; border-radius: 12px; background: rgba(255, 91, 46, 0.12); display: grid; place-items: center; margin-bottom: 18px; }
+.moment .icon { width: 44px; height: 44px; border-radius: 12px; background: rgba(253, 83, 2, 0.12); display: grid; place-items: center; margin-bottom: 18px; }
 .moment .icon svg { width: 22px; height: 22px; stroke: var(--ember); fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 .moment h3 { margin: 0 0 8px; font-size: 20px; font-weight: 600; }
 .moment p { margin: 0; color: var(--text2); font-size: 16px; }
